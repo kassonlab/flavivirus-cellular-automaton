@@ -1,0 +1,24 @@
+“”
+“***Ignore Warnings for access to tty***”
+“”
+Changing to directory… Directory is /home/asp8
+
+Our List of nodes:
+
+hpc04.williams.edu
+hpc04.williams.edu
+
+“Loading module matlab/R2017a. ”“Done!”
+“”
+“Finished program at: ”Thu Jul 25 10:16:34 EDT 2019
+“”
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2017 The MathWorks, Inc.
+                   R2017a (9.2.0.556344) 64-bit (glnxa64)
+                               March 27, 2017
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 

@@ -1,0 +1,27 @@
+#PBS -q matlab
+#PBS -l nodes=1:ppn=4
+#PBS -l walltime=30:00:00
+#PBS -l mem=8GB
+#PBS -m abe -M asp8@williams.edu  
+#PBS -o /home/asp8/WNV_MODELING_v190726.2/Zika_cellular_automaton/out/zika.out
+
+echo “”
+echo “***Ignore Warnings for access to tty***”
+echo “”
+echo -n "Changing to directory… "
+echo "Directory is `pwd`"
+cd $PBS_O_WORKDIR
+echo ""
+echo "Our List of nodes:"
+echo ""
+cat $PBS_NODEFILE
+echo ""
+echo -n “Loading module matlab/R2017a. ”
+module load matlab/R2017a
+echo “Done!”
+echo “”
+echo -n “Finished program at: ”
+date
+echo “”
+matlab -nodisplay -r "START_SIMULATION_2, exit"
+
